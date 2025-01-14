@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip - #1 Travel Website 50% OFF on Hotels,Flights & Holiday</title>
+    <link rel="icon" type="image/x-icon" href="/assets/my-logo.png">
+    <link rel="stylesheet" href="/index.css">
+    <script src="https://kit.fontawesome.com/ce5c444ca8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="form_container">
+        <div id="left_form">
+            <img src="https://promos.makemytrip.com/notification/xhdpi/Roadblock-386x540-SS-Sankranti-8Jan.jpg" alt="" width="386px" height="540px" id="fc_img_left">
+        </div>
+        <div id="right_form">
+            <div id="upper_form_rht">
+                <b>PERSONAL ACCOUNT</b>
+                <p>MYBIZ ACCOUNT</p>
+            </div>
+            <div id="mid_form_rht">
+                <p style="font-size: 14px;color: #4a4a4a;font-weight: 700;margin-bottom: 10px;">Mobile Number</p>
+                <form action="">
+                    <div id="fc_form_div">
+                        <span id="fc_num_div">
+                            <label for="fc_nums"><img src="https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/flags/in.png" alt="" width="23px" height="23px" style="box-sizing:border-box;margin-bottom: -8px;"><span style="font-size: 16px;margin-left: 10px; color: #4a4a4a;">+91&nbsp; <i class="fa-solid fa-angle-down" style="color: #008CFF;"></i>&nbsp;</span></label>
+                            <input type="tel" name="number" id="fc_nums" placeholder="Enter Mobile Number" style="margin-left: 6px;">
+                        </span>
+                    </div>
+                </form>
+                <div id="fc_btn">
+                    <button>CONTINUE</button>
+                </div>
+                <div id="fc_para_cnt">
+                    <p id="fc_para">Or Login/Signup With</p>
+                </div>
+                <div id="fc_pictures">
+                    <div id="svg_div">
+                        <svg id="fc_svg" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="LgbsSe-Bz112c"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg>
+                    </div>
+                    <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/SignInByEmail.png" alt="" width="40px" height="40px" style="cursor: pointer;">
+                </div>
+            </div>
+            <div id="lower_form_rht">
+                <p>By proceeding, you agree to MakeMyTrip's  <span>Privacy Policy</span>, <span>User Agreement</span> and <span>T&Cs</span></p>
+            </div>
+        </div>
+        <div id="cross" onclick="removeFunction()">
+            <i class="fa-solid fa-x" style="font-size: 14px;"></i>
+        </div>
+    </div>
+
+
+    <header>
+        <div id="header_container">
+            <div id="navigation">
+                <img src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png" id="logo1">
+                <div id="nav-bar">
+                    <div id="nav1" class="navs">
+                        <img src="/assets/nav1.png" width="20px" style="outline: 5px solid #727177;border-radius: 10px;position: absolute;top: 20px;">
+                        <b style="font-size: 11px;margin-left: 35px;">List Your Property</b>
+                        <p class="para" style="margin-left: 33px;">Grow your business!</p>
+                    </div>
+                    <div id="nav2" class="navs">
+                        <img src="/assets/nav2.png" width="43px" style="position: absolute;top: 20px;">
+                        <b style="font-size: 14px;margin-left: 52px;">Introducing myBiz</b>
+                        <p class="para" style="margin-left: 53px;">Business Travel Solution</p>
+                    </div>
+                    <div id="nav3" class="navs">
+                        <img src="/assets/nav3.png" width="18px" style="position: absolute;top: 20px;">
+                        <b style="font-size: 11px;margin-left: 31px;">My Trips</b>
+                        <p class="para" style="margin-left: 30px;">Manage your bookings</p>
+                    </div>
+                    <div id="nav4">
+                        <img src="/assets/my_curvy.png" width="23px">
+                        <p id="nav4_para" style="font-size: 10px;padding-right: 40px;padding-left: 10px;padding-top: 5px;">Login or Create Account </p><i class="fa-solid fa-angle-down" style="padding-top: 3px;"></i>
+                    </div>
+                    <div id="nav5">
+                        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp " width="15px" height="10px" style="padding-top: 2px;padding-right: 5px;">
+                        <p style="font-size: 11px;font-weight: 700;">IN | ENG &nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></p>
+                    </div>
+                    <div id="nav6">
+                        <p style="font-size: 11px;font-weight: 700;">INR &nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div id="nav_container">
+                <div id="nav_cont_div1">
+                    <img src="/assets/flight.jpg" alt="" width="60px" height="30px" style="margin-top: 20px;"><p>Flights</p>
+                </div>
+                <div id="nav_cont_div2"><img src="/assets/hotel.jpg" alt="" width="50px" height="35px" style="margin-top: 15px;"><p>Hotels</p></div>
+                <div id="nav_cont_div3"> <img src="https://img.freepik.com/premium-vector/homestay-icon-vector-image-can-be-used-vacation-planning_120816-232215.jpg" alt="" width="60px" height="40px"><p>Homestays <br>&nbsp;&nbsp;&nbsp;&nbsp;& Villas</p></div>
+                <div id="nav_cont_div4"><img src="/assets/umbrella.jpg" alt="" width="50px" height="40px"><p>&nbsp;&nbsp;Holiday <br>Packages</p></div>
+                <div id="nav_cont_div5"><img src="https://i.pinimg.com/736x/78/d8/27/78d827c609a8e7329889cae44a742bad.jpg" alt="" width="70px" height="60px" style="margin-top: 8px;"><p style="position: absolute;top: 52px;">Trains</p></div>
+                <div id="nav_cont_div6"><img src="https://img.freepik.com/premium-vector/logo-bus-icon-school-bus-vector-isolated-transport-bus-silhouette-design-white-background_653669-3112.jpg" alt="" width="60px" height="60px" style="margin-top: 4px;"><p style="position: absolute;top: 52px;left: 530px;">Buses</p></div>
+                <div id="nav_cont_div7"><img src="https://static.vecteezy.com/system/resources/previews/015/153/901/non_2x/car-travel-icon-color-outline-vector.jpg" alt="" width="50px" height="40px"><p style="padding-top: 3px;padding-left: 2px;">Cabs</p></div>
+                <div id="nav_cont_div8"><img src="https://t4.ftcdn.net/jpg/03/07/14/09/360_F_307140983_MDNd4Mtv5qgd3LAUK40ru1EPyYWL4elG.jpg" alt="" width="50px" height="50px" ><p style="position: absolute;top: 52px;">Forex Card <br> & Currency</p></div>
+                <div id="nav_cont_div9" style="margin-left: 40px;"><img src="https://static.vecteezy.com/system/resources/previews/002/210/424/non_2x/travel-insurance-black-glyph-icon-vector.jpg" alt="" width="50px" height="40px" style="margin-left: 13px;"><p>&nbsp;&nbsp;&nbsp;&nbsp;Travel <br>Insurance</p></div>
+            </div>
+            <div id="container_1">
+                <div id="upper_container1">
+                    <form action="" id="myform1">
+                        <input type="radio" value="One Way"  id="check1" class="radiobox" name="radio_btn"><label for="check1" class="check_input"></label><span class="spans">&nbsp;&nbsp;One Way</span>
+                        <input type="radio" value="Round Trip"  id="check2" class="radiobox" name="radio_btn"><label for="check2" class="check_input"></label><span class="spans">&nbsp;&nbsp;Round Trip</span>
+                        <input type="radio" value="Multi City"  id="check3" class="radiobox" name="radio_btn"><label for="check3" class="check_input"></label><span class="spans">&nbsp;&nbsp;Multi City</span>
+                    </form>
+                    <div id="book">
+                        <p id="book_para">Book International and Domestic Flights</p>
+                    </div>
+                </div>
+                <div id="middle_container1">
+                    <div id="mid_div1">
+                        <p>From</p>
+                        <h1 style="font-weight: 800;font-size: 30px;">Delhi</h1>
+                        <p id="del">DEL, Delhi Airport India</p>
+                    </div>
+                    <div id="mid_div2">
+                        <p>To</p>
+                        <h1 style="font-weight: 800;font-size: 30px;">Bengaluru</h1>
+                        <p id="blr">BLR, Bengaluru International Airport...</p>
+                    </div>
+                    <div id="mid_div3">
+                        <p>Depature <i class="fa-solid fa-angle-down"></i></p>
+                        <span style="font-size: 30px; font-weight: bold;">10</span><span id="jan25" style="font-size: 20px;">Jan'25</span>
+                        <p>Friday</p>
+                    </div>
+                    <div id="mid_div4">
+                        <p>Return <i class="fa-solid fa-angle-down"></i></p>
+                        <p style="font-size: 12px;color: #9b9b9b;font-weight: 900;">Tap to add a return<br> date for bigger<br> discounts</p>
+                    </div>
+                    <div id="mid_div5">
+                        <p>Travellers & Class <i class="fa-solid fa-angle-down"></i></p>
+                        <span style="font-size: 30px;font-weight: bold;">1</span><span id="traveller" style="font-size: 20px;">Traveller</span>
+                        <p>Economy/Premium Economy</p>
+                    </div>
+                </div>
+                <div id="arrow_container">
+                    <img src="https://www.shutterstock.com/image-vector/transfer-arrows-outline-icon-left-260nw-1746923762.jpg" alt="" id="arrow" width="20px">
+                </div>
+                <div id="lower_container1">
+                    <div id="low-div1">
+                        <p style="font-weight: 900;font-size: 14px;padding-bottom: 5px;">Select a special fare</p>
+                        <b id="extra">EXTRA SAVINGS</b>
+                    </div>
+                    <form action="">
+                        <div id="rd1" class="rd_btn"><input type="radio" value="Regular" name="role" id="radio1"><label for="radio1">Regular<br><p>Regular Fares</p></label></div>
+                        <div id="rd2" class="rd_btn"><input type="radio" value="Student" name="role" id="radio2"><label for="radio2">Student<br><p>Extra discounts/baggage</p></label></div>
+                        <div id="rd3" class="rd_btn"><input type="radio" value="Senior Citizen" name="role" id="radio3"><label for="radio3">Senior Citizen<br><p>Up to ₹ 600 off</p></label></div>
+                        <div id="rd4" class="rd_btn"><input type="radio" value="Armed Forces" name="role" id="radio4"><label for="radio4">Armed Forces<br><p>Up to ₹ 600 off</p></label></div>
+                        <div id="rd5" class="rd_btn"><input type="radio" value="Doctor and Nurses" name="role" id="radio5"><label for="radio5">Doctor and Nurses<br><p>Up to ₹ 600 off</p></label></div>
+                    </form>
+                </div>
+            </div>
+            <div id="search_button">
+                <input type="button" id="search_btn" value="SEARCH">
+            </div>
+            <div id="explore_container">
+               <div id="exp_arr1">
+                <i class="fa-solid fa-angle-down" style="margin-bottom: -22px;margin-top: 14px;"></i>
+                <i class="fa-solid fa-angle-down"></i>
+               </div> 
+               <p style="font-size: 13px;font-weight: 700;"> Explore More </p>
+               <div id="exp_arr2">
+                <i class="fa-solid fa-angle-down" style="margin-bottom: -22px;margin-top: 14px;"></i>
+                <i class="fa-solid fa-angle-down"></i>
+               </div> 
+            </div>
+            <div id="end_nav_container">
+                <div id="end1">
+                    <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_where2go.png" height="28px">
+                    <div id="end1_cont" class="end_conts" style="margin-left: 5px;"><p>Where2Go</p></div>
+                </div>
+                <div id="end2">
+                    <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_howtogo.png" height="28px">
+                    <div id="end2_cont" class="end_conts" style="margin-left: 5px;">
+                        <p>How2Go <b>new</b><div class="small_para">Find routes to anywhere</div></p>
+                        
+                    </div>
+                </div>
+                <div id="end3">
+                    <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_travelcard.png" height="28px">
+                    <div id="end3_cont" class="end_conts" style="margin-left: 5px;">
+                        <b style="font-size: 14px;color: black;">MakeMyTrip ICICI Credit Card</b>
+                    <p class="small_para">Never-expiring rewards & big benefits</p>
+                    </div>
+                </div>
+                <div id="end4">
+                    <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_mice.png" height="28px">
+                    <div id="end4_cont" class="end_conts" style="margin-left: 5px;">
+                        <p>MICE</p>
+                        <p class="small_para">Offsites, Events & Meetings</p>
+                    </div>
+                </div>
+                <div id="end5" style="margin-left: 20px;">
+                    <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_giftcards.png" height="28px">
+                    <div id="end5_cont" class="end_conts" style="margin-left: 5px;">
+                        <p>Gift Cards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section1">
+        <div id="section_contanier1">
+            <div id="section1_nav">
+                <div id="offer">
+                    <h1 style="font-size: 32px;color:#393939;padding-right: 10px;">Offers</h1>
+                </div>
+                <div id="section1_navbars">
+                    <ul>
+                        <li><a href="#">All Offers</a></li>
+                        <li><a href="#">Bank Offers</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Holidays</a></li>
+                        <li><a href="#">Trains</a></li>
+                        <li><a href="#">Cabs</a></li>
+                        <li><a href="#">Bus</a></li>
+                        <li><a href="#">Forex</a></li>
+                    </ul>
+                </div>
+                <div id="view">
+                    <h1 style="color: #008cff;font-size: 16px;margin-right: 10px;font-weight: 900;">VIEW ALL</h1>
+                    <img src="https://cdn1.iconfinder.com/data/icons/user-interface-colorful/48/arrow_right-512.png" width="23px" style="margin-right: 10px;">
+                    <span id="lft_arr1"><i class="fa-solid fa-angle-left" id="ang_lft"></i></span>
+                    <span id="rht_arr1"><i class="fa-solid fa-angle-right" id="ang_rht"></i></span>
+                </div>
+            </div>
+
+            <div id="section1_container">
+                <div id="sec1_cont1" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/notification/xhdpi//indigo.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div1">
+                        <span class="sec1_conts_span">INTL FLIGHTS</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>LIVE NOW: Sale by IngiGo</h1>
+                        <div class="small_line"></div>
+                        <p>with flight fares starting @ &#8377; 1,199*.</p>
+                        <b>BOOK NOW</b>
+                    </div>
+                </div>
+                <div id="sec1_cont2" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/images//Desktop-MahaKumbh-3Jan.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div2">
+                        <span class="sec1_conts_span">DOM HOTELS</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>Book Stays, Flights, Cabs, Buses & more</h1>
+                        <div class="small_line"></div>
+                        <p>@ up to 30% OFF*</p>
+                        <b>BOOK NOW</b>
+                    </div>
+                </div>
+                <div id="sec1_cont3" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/images//Bus-Desktop-Kumbh-3Jan.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div3">
+                        <span class="sec1_conts_span">Bus</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>Book Buses</h1>
+                        <div class="small_line"></div>
+                        <p>@ up to 15% OFF*</p>
+                        <b>BOOK NOW</b>
+                    </div> 
+                </div>
+                <div id="sec1_cont4" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/images//PrebuzzDesktop-IMWPS-22Nov.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div4">
+                        <span class="sec1_conts_span">HOLIDAYS</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>For You: Flat 25% OFF* on Holiday Packages.</h1>
+                        <div class="small_line"></div>
+                        <p>Grap & make your trip memorable.</p>
+                        <b>BOOK NOW</b>
+                    </div>       
+                </div>
+                <div id="sec1_cont5" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/images//Hotel-Desktop-Kumbh-3Jan.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div5">
+                        <span class="sec1_conts_span">DOM HOTELS</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>Book Luxury Tents, Hotels & Homestays</h1>
+                        <div class="small_line"></div>
+                        <p>@ up to 30% OFF*</p>
+                        <b>BOOK NOW</b>
+                    </div> 
+                </div>
+                <div id="sec1_cont6" class="sec1_conts">
+                    <img src="https://promos.makemytrip.com/images//Train-Desktop-Kumbh-3Jan.jpg?im=Resize=(134,134)">
+                    <div id="sec1_cont_div6">
+                        <span class="sec1_conts_span">RAILS</span>
+                        <span>T&C'S APPLY</span>
+                        <h1>Book Trains</h1>
+                        <div class="small_line"></div>
+                        <p>with Trip Guarantee starting @ &#8377;1*</p>
+                        <b>BOOK NOW</b>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div id="section_container2">
+            <div id="left_sec_cont2">
+                <h1>Flagship Hotel Stores <br> on MakeMyTrip</h1>
+            </div>
+            <div id="right_sec_cont2">
+                <span id="right_div1">
+                    <img src="https://platforms.makemytrip.com/contents/5b28b4a9-d58d-4984-b60b-c0410a572f00" width="250px" style="border-radius: 14px;" class="sec2_imgs">
+                    <b class="img_contents" id="img_cnt1">Lemon Tree Hotels</b>
+                </span>
+                <span id="right_div2">
+                    <img src="https://platforms.makemytrip.com/contents/022d9c0e-ae81-4ab2-8b8e-948d76eb421d" width="250px" style="border-radius: 14px;" class="sec2_imgs">
+                    <b class="img_contents" id="img_cnt2">WelcomHeritage</b>
+                </span>
+                <span id="right_div3">
+                    <img src="https://platforms.makemytrip.com/contents/63ef6026-1674-4e06-91f8-77d868e15bcc" width="250px" style="border-radius: 14px;" class="sec2_imgs">
+                    <b class="img_contents" id="img_cnt3">Wyndham Hotels & Resorts</b>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div id="section_container3">
+            <span id="lft_arr2"><i class="fa-solid fa-angle-left" id="sec3_lft_arr"></i></span>
+            <div id="sec3_div1" class="sec3_divs">
+                <img src="https://promos.makemytrip.com/Growth/Images/B2C/Uncompressed/Artboard_travRep.png" width="68px" height="68px" style="margin-left: 10px;">
+                <p class="sec3_paras">Check out our Indian Travel <br> Trends Report. Our trends report <br> 2023-24 is out now. Read on for <br> top travel insights.</p>
+            </div>
+            <div id="sec3_div2" class="sec3_divs" style="margin-bottom: 10px;">
+                <img src="https://promos.makemytrip.com/Growth/Images/B2C/xhdpi/ic_whatsnew_flight.png" width="68px" height="68px">
+                <p class="sec3_paras">Book Flights with Voice Chat! <br> Code: <b style="font-size: 16px;">MMTMYRA</b> will be auto- <br> applied for EXTRA discounts!</p>
+            </div>
+            <div id="sec3_div3" class="sec3_divs" >
+                <img src="https://promos.makemytrip.com/images/CDN_upload/indiannessapphome2.png" width="68px" height="68px">
+                <p class="sec3_paras">Finding Indian Food just got <br> easier! Use newly launched filters <br> to find Indian food during <br> International travel</p>
+            </div>
+            <span id="rht_arr2"><i class="fa-solid fa-angle-right" id="sec3_rht_arr"></i></span>
+        </div>
+    </section>
+
+   <section id="section4">
+        <img src="https://platforms.makemytrip.com/contents/734b0057-9472-4dcb-9b17-fbac7759ff3a">
+    </section>
+
+    <section id="section5">
+        <div id="sec5_container">
+            <div id="sec5_left">
+                <div id="inner_sec5_left">
+                    <img src="/assets/photo_img.jpg" alt="" width="55px" height="66px">
+                    <div id="inner_sec5_inn_rht" style="margin-left: 10px;">
+                        <h1 style="font-size: 32px;font-weight: 900;line-height: 50px;">Download App Now !</h1>
+                        <p style="font-size: 14px;color: #4a4a4a;">Use code <b style="color: black;">WELCOMEMMT</b> and get <b style="color: black;">FLAT 12%</b> OFF* on your first domestic flight booking</p>
+                    </div>
+                </div>
+                <form action="">
+                    <div id="sec5_form_div">
+                        <span id="sec5_num_div" style="border: 1px solid #9B9B9B;padding: 10px 110px 10px 10px;border-radius: 4px 0 0 4px;">
+                            <label for="nums"><img src="https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp" alt="" width="23px" height="19px"><span style="font-size: 16px;font-weight: 700;color: black;padding-left: 5px;">+91&nbsp; <i class="fa-solid fa-minus"></i></span></label>
+                            <input type="tel" name="number" id="nums" placeholder="Enter Mobile number" style="margin-left: 6px;">
+                        </span>
+                        <span id="get_link">GET APP LINK</span>
+                    </div>
+                </form>
+            </div>
+            <div id="sec5_right">
+                <div id="sec5_right_inn_left">
+                    <img src="https://www.nicepng.com/png/detail/435-4350523_get-it-on-google-play-google-play.png" alt="" width="150px" height="50px" style="margin-left: 40px;">
+                    <img src="https://help.opportunitynetwork.com/hs-fs/hubfs/apple.png?width=400&name=apple.png" alt="" width="170px" height="68px" style="margin-left: 30px;">
+                </div>
+                <div id="se5_right_inn_right">
+                    <img src="https://promos.makemytrip.com/Growth/Images/B2C/dt_app_download_qr.png" alt="" width="105px" height="100px" style="margin-top: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="section6">
+        <div id="sec6_container">
+            <div id="sec6_upper">
+                <h1 id="sec6_h1">Handpicked Collections for You</h1>
+                <span id="lft_arr3"><i class="fa-solid fa-angle-left" id="sec6_ang_lft"></i></span>
+                <span id="rht_arr3"><i class="fa-solid fa-angle-right" id="sec6_ang_rht"></i></span>
+            </div>
+            <div id="sec6_lower">
+                <div id="sec6_div1" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/delhi_hotels_tiow/mmt/activities/m_Le%20ROI%20Floating%20Huts_Eco%20Rooms_Tehri_Uttarakhand_l_550_821.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div1_inner" class="sec6_div_texts">
+                        <b>TOP 8</b>
+                        <p>Stays in & Around Delhi <br> for a Weekend Gateaway</p>
+                    </div>
+                </div>
+                <div id="sec6_div2" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/seo_img/mmt/activities/m_Radisson_blu_image_seo_l_550_821.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div2_inner" class="sec6_div_texts">
+                        <b>TOP 8</b>
+                        <p>Stays in & Around <br> Mumbai for a Weekend <br> Gateaway</p>
+                    </div>
+                </div>
+                <div id="sec6_div3" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/bangalore_hotel_tiow/mmt/activities/m_Waterwoods%20Lodges%20&%20Resorts_Kabini_l_550_821.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div3_inner" class="sec6_div_texts">
+                        <b>TOP 9</b>
+                        <p>Stays in & Around <br> Bangalore for a <br> Weekend Gateaway</p>
+                    </div>
+                </div>
+                <div id="sec6_div4" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_beach44_p_540_417.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div4_inner" class="sec6_div_texts">
+                        <b>TOP 11</b>
+                        <p>Beach Destinations</p>
+                    </div>
+                </div>
+                <div id="sec6_div5" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_weekend44_p_540_417.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div5_inner" class="sec6_div_texts">
+                        <b>TOP 11</b>
+                        <p>Weekend Gateaways</p>
+                    </div>
+                </div>
+                <div id="sec6_div6" class="sec6_divs">
+                    <img src="https://hblimg.mmtcdn.com/content/hubble/img/collections/m_hill_stations11_p_540_417.jpg?im=Resize=(400,462)" alt="">
+                    <div id="sec6_div6_inner" class="sec6_div_texts">
+                        <b>TOP 11</b>
+                        <p>Hill Stations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section7">
+       <div id="sec7_container">
+        <div id="sec7_upper">
+            <h1 id="sec7_h1">Unlock Lesser-Known Wonders of India</h1>
+            <span id="lft_arr4"><i class="fa-solid fa-angle-left"  id="sec7_ang_lft"></i></span>
+            <span id="rht_arr4"><i class="fa-solid fa-angle-right"  id="sec7_ang_rht"></i></span>
+        </div>
+        <div id="sec7_lower">
+            <div id="sec7_div1" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/narkanda/mmt/destination/m_Narkanda_l_372_902.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div1_inner" class="sec7_div_texts">
+                   <p>Shimla's Best Kept Secret</p>
+                </div>
+            </div>
+            <div id="sec7_div2" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/yercaud/mmt/destination/m_destination-yercaud-landscape_l_400_640.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div2_inner" class="sec7_div_texts">
+                    <p>Tamil Nadu's Charming Hill Town</p>
+                </div>
+            </div>
+            <div id="sec7_div3" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/dooars/mmt/destination/m_Dooars_l_457_685.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div3_inner" class="sec7_div_texts">
+                    <p>Picturesque Gateway to Himalayas</p>
+                </div>
+            </div>
+            <div id="sec7_div4" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/saputara/mmt/destination/m_destination-saputara-landscape_l_400_640.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div4_inner" class="sec7_div_texts">
+                    <p>Quaint Little Hill station in Gujarat</p>
+                </div>
+            </div>
+            <div id="sec7_div5" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/dhanaulti/mmt/destination/m_Destination_Dhanaulti_l_534_801.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div5_inner" class="sec7_div_texts">
+                    <p>A pleasant summer retreat and a snowy winter wondreland!</p>
+                </div>
+            </div>
+            <div id="sec7_div6" class="sec7_divs">
+                <img src="https://hblimg.mmtcdn.com//content/hubble/img/mandarmani/mmt/destination/m_destination-mandarmoni-landscape_l_400_640.jpg?im=Resize=(400,462)" alt="">
+                <div id="sec7_div6_inner" class="sec7_div_texts">
+                    <p>Seaside Resort Village in West Bengal</p>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <section id="section8">
+        <div id="sec8_div1" class="sec8_divs">
+            <b>MakeMyTrip</b>
+            <p><a href="#">About Us</a>,  
+                <a href="#">Investor Relations</a>,  
+                <a href="#">Careers</a>,  
+                <a href="#">Sustainability</a>,  
+                <a href="#">MMT Foundation</a>,  
+                <a href="#">Legal Notices</a>,  
+                <a href="#">CSR Policy & Committee</a>,  
+                <a href="#">myPartner - Travel Agent Portal</a>,  
+                <a href="#">Foreign Exchange</a>,  
+                <a href="#">List your hotel</a>,  
+                <a href="#">Partners- Redbus</a>,  
+                <a href="#">Partners- Goibibo</a>,  
+                <a href="#">Advertise with Us</a>,  
+                <a href="#">Holiday-Franchise</a>,  
+                <a href="#">Partners- BookMyForex</a>,  
+                <a href="#">RedBus Ferry Malaysia</a>,  
+                <a href="#">RedBus Ferry Singapore</a>,  
+                <a href="#">redBus Vietnam</a>,  
+                <a href="#">redBus Cambodia</a>,  
+                <a href="#">Things to Do in Malaysia</a>,  
+                <a href="#">Things to Do in Singapore</a>
+                </p>
+        </div>
+        <div id="sec8_div2" class="sec8_divs">
+            <b>Quick Links</b>
+            <p><a href="#">Delhi Chennai Flights</a>,  
+                <a href="#">Delhi Mumbai Flights</a>,  
+                <a href="#">Delhi Goa Flights</a>,  
+                <a href="#">Chennai Mumbai flights</a>,  
+                <a href="#">Mumbai Hyderabad flights</a>,  
+                <a href="#">Kolkata to Rupsi Flights</a>,  
+                <a href="#">Rupsi to Guwahati Flights</a>,  
+                <a href="#">Pasighat to Guwahati Flights</a>,  
+                <a href="#">Delhi to Khajuraho Flights</a>,  
+                <a href="#">Cochin to Agatti Island Flights</a>,  
+                <a href="#">Hotels in Delhi</a>,  
+                <a href="#">Hotels in Mumbai</a>,  
+                <a href="#">Hotels In Goa</a>,  
+                <a href="#">Hotels In Jaipur</a>,  
+                <a href="#">Hotels In Ooty</a>,  
+                <a href="#">Hotels In Udaipur</a>,  
+                <a href="#">Hotels in Puri</a>,  
+                <a href="#">Hotels In North Goa</a>,  
+                <a href="#">Hotels In Rishikesh</a>,  
+                <a href="#">Honeymoon Packages</a>,  
+                <a href="#">Kerala Packages</a>,  
+                <a href="#">Kashmir Packages</a>,  
+                <a href="#">Ladakh Packages</a>,  
+                <a href="#">Goa Packages</a>,  
+                <a href="#">Thailand Packages</a>,  
+                <a href="#">Sri Lanka Visa</a>,  
+                <a href="#">Thailand Visa</a>,  
+                <a href="#">Explore Goa</a>,  
+                <a href="#">Explore Manali</a>,  
+                <a href="#">Explore Shimla</a>,  
+                <a href="#">Explore Jaipur</a>,  
+                <a href="#">Explore Srinagar</a>
+                </p>
+        </div>
+        <div id="sec8_div3" class="sec8_divs">
+            <b>About the Site</b>
+            <p><a href="#">Customer Support</a>,  
+                <a href="#">Payment Security</a>,  
+                <a href="#">Privacy Policy</a>,  
+                <a href="#">Cookie Policy</a>,  
+                <a href="#">User Agreement</a>,  
+                <a href="#">Terms of Service</a>,  
+                <a href="#">Franchise Offices</a>,  
+                <a href="#">Make A Payment</a>,  
+                <a href="#">Work From Home</a>,  
+                <a href="#">Escalation Channel</a>,  
+                <a href="#">Report Security Issues</a>
+                </p>
+        </div>
+        <div id="sec8_div4" class="sec8_divs">
+            <b>MImportant Links</b>
+            <p><a href="#">Cheap Flights</a>,  
+                <a href="#">Flight Status</a>,  
+                <a href="#">Kumbh Mela</a>,  
+                <a href="#">Domestic Airlines</a>,  
+                <a href="#">International Airlines</a>,  
+                <a href="#">Indigo</a>,  
+                <a href="#">Spicejet</a>,  
+                <a href="#">GoAir</a>,  
+                <a href="#">Air Asia</a>,  
+                <a href="#">Air India</a>,  
+                <a href="#">Indian Railways</a>,  
+                <a href="#">Trip Ideas</a>,  
+                <a href="#">Beaches</a>,  
+                <a href="#">Honeymoon Destinations</a>,  
+                <a href="#">Romantic Destinations</a>,  
+                <a href="#">Popular Destinations</a>,  
+                <a href="#">Resorts In Udaipur</a>,  
+                <a href="#">Resorts In Munnar</a>,  
+                <a href="#">Villas In Lonavala</a>,  
+                <a href="#">Hotels in Thailand</a>,  
+                <a href="#">Villas In Goa</a>,  
+                <a href="#">Domestic Flight Offers</a>,  
+                <a href="#">International Flight Offers</a>,  
+                <a href="#">UAE Flight Offers</a>,  
+                <a href="#">USA</a>,  
+                <a href="#">UAE</a>,  
+                <a href="#">Saudi Arabia</a>,  
+                <a href="#">UK</a>,  
+                <a href="#">Oman</a>
+                </p>
+        </div>
+        <div id="sec8_div5" class="sec8_divs">
+            <b>Corporate Travel</b>
+            <p><a href="#">Business Travel</a>,  
+                <a href="#">Corporate Travel</a>,  
+                <a href="#">Corporate Travel Management</a>,  
+                <a href="#">Corporate Travel Solution</a>,  
+                <a href="#">Corporate Hotel Booking</a>,  
+                <a href="#">Corporate Flight Booking</a>,  
+                <a href="#">Expense Management</a>,  
+                <a href="#">Corporate Expense Management</a>,  
+                <a href="#">GST on Hotel Rooms</a>,  
+                <a href="#">GST on Flight Tickets</a>,  
+                <a href="#">Business Travel for SME</a>,  
+                <a href="#">GST Invoice for International flights</a>,  
+                <a href="#">GST Invoice for Bus</a>,  
+                <a href="#">GST on Train Tickets</a>,  
+                <a href="#">T&E (Travel & Expense)</a>,  
+                <a href="#">myBiz - Best Business Travel Platform</a>,  
+                <a href="#">GST Invoice for Corporate Travel</a>,  
+                <a href="#">myBiz for Small Business</a>,  
+                <a href="#">Free cancellation on International Flights</a>
+                </p>
+        </div>
+        <div id="sec8_div6" class="sec8_divs">
+            <b>Product Offering</b>
+            <p><a href="#">Flights</a>,  
+                <a href="#">International Flights</a>,  
+                <a href="#">Charter Flights</a>,  
+                <a href="#">Hotels</a>,  
+                <a href="#">International Hotels</a>,  
+                <a href="#">Homestays and Villas</a>,  
+                <a href="#">Activities</a>,  
+                <a href="#">Holidays In India</a>,  
+                <a href="#">International Holidays</a>,  
+                <a href="#">Book Hotels From UAE</a>,  
+                <a href="#">myBiz for Corporate Travel</a>,  
+                <a href="#">Book Online Cabs</a>,  
+                <a href="#">Book Bus Tickets</a>,  
+                <a href="#">Book Train Tickets</a>,  
+                <a href="#">Cheap Tickets to India</a>,  
+                <a href="#">Book Flights From US</a>,  
+                <a href="#">Book Flights From UAE</a>,  
+                <a href="#">Trip Planner</a>,  
+                <a href="#">Forex Card</a>,  
+                <a href="#">Buy Foreign Currency</a>,  
+                <a href="#">Travel Insurance</a>,  
+                <a href="#">Travel Insurance Thailand</a>,  
+                <a href="#">Travel Insurance For UAE</a>,  
+                <a href="#">Travel Insurance For Indonesia</a>,  
+                <a href="#">Travel Insurance For Vietnam</a>,  
+                <a href="#">Travel Insurance For Europe</a>,  
+                <a href="#">Travel Insurance For USA</a>,  
+                <a href="#">Travel Insurance for Singapore</a>,  
+                <a href="#">Travel Insurance for Malaysia</a>,  
+                <a href="#">Travel Insurance for Sri Lanka</a>,  
+                <a href="#">Travel Insurance for United Kingdom</a>,  
+                <a href="#">Travel Insurance for Canada</a>,  
+                <a href="#">Gift Cards</a>,  
+                <a href="#">Gift</a>,  
+                <a href="#">Wedding Gift</a>,  
+                <a href="#">Anniversary Gift</a>,  
+                <a href="#">Birthday Gift</a>,  
+                <a href="#">Diwali Gift</a>,  
+                <a href="#">Valentines Gift</a>,  
+                <a href="#">Farewell Gift</a>,  
+                <a href="#">Christmas Gift</a>,  
+                <a href="#">New Year Gift</a>,  
+                <a href="#">Trip Ideas</a>,  
+                <a href="#">Travel Blog</a>,  
+                <a href="#">PNR Status</a>,  
+                <a href="#">MakeMyTrip Advertising Solutions</a>,  
+                <a href="#">One Way Cab</a>
+                </p>
+        </div>
+        <div id="sec8_div7" class="sec8_divs">
+            <b>Top Hotels in India</b>
+            <p><a href="#">Fairmont Jaipur</a>,  
+                <a href="#">St Regis Goa</a>,  
+                <a href="#">Six Senses Fort Barwara</a>,  
+                <a href="#">W Goa</a>,  
+                <a href="#">Grand Hyatt Goa</a>,  
+                <a href="#">Shangri-La Bangalore</a>,  
+                <a href="#">The St Regis Mumbai</a>,  
+                <a href="#">Taj Rishikesh</a>,  
+                <a href="#">Grand Hyatt Mumbai</a>,  
+                <a href="#">Le Meridien Delhi</a>,  
+                <a href="#">Rambagh Palace Jaipur</a>,  
+                <a href="#">Leela Palace Chennai</a>,  
+                <a href="#">The Leela Palace Udaipur</a>,  
+                <a href="#">Taj Lake Palace Udaipur</a>,  
+                <a href="#">Jw Marriott Chandigarh</a>,  
+                <a href="#">Alila Diwa Goa</a>,  
+                <a href="#">Le Meridien Goa</a>,  
+                <a href="#">Taj Lands End Mumbai</a>,  
+                <a href="#">Itc Grand Chola Chennai</a>,  
+                <a href="#">Itc Maratha Mumbai</a>,  
+                <a href="#">Oberoi Udaivilas</a>,  
+                <a href="#">Jai Mahal Palace Jaipur</a>,  
+                <a href="#">Taj Mahal Tower Mumbai</a>,  
+                <a href="#">Marriott Suites Pune</a>,  
+                <a href="#">Park Hyatt Chennai</a>,  
+                <a href="#">The Leela Palace Jaipur</a>,  
+                <a href="#">Jw Marriott Mumbai Sahar</a>,  
+                <a href="#">Jw Marriott Mumbai Juhu</a>,  
+                <a href="#">The Ritz Carlton Bengaluru</a>,  
+                <a href="#">The Oberoi New Delhi</a>,  
+                <a href="#">Taj Resort & Convention Centre Goa</a>,  
+                <a href="#">Taj Bengal Kolkata</a>,  
+                <a href="#">Taj Coromandel Chennai</a>,  
+                <a href="#">The Oberoi Gurgaon</a>,  
+                <a href="#">The Westin Goa</a>,  
+                <a href="#">Jw Marriott Hotel Pune</a>,  
+                <a href="#">The Leela Palace New Delhi</a>,  
+                <a href="#">Taj West End Bengaluru</a>,  
+                <a href="#">The Taj Mahal Palace Mumbai</a>,  
+                <a href="#">Best Hotels in India</a>
+                </p>
+        </div>
+        <div id="sec8_div8" class="sec8_divs">
+            <b>Top International hotels</b>
+            <p><a href="#">Adaaran Club Rannalhi</a>,  
+                <a href="#">Marina Bay Sands Singapore</a>,  
+                <a href="#">Coco Bodu Hithi</a>,  
+                <a href="#">Taj Dubai</a>,  
+                <a href="#">Atlantis Hotel Dubai</a>,  
+                <a href="#">Amari Phuket</a>,  
+                <a href="#">Jw Marriott Dubai</a>,  
+                <a href="#">Armani Hotel Dubai</a>,  
+                <a href="#">Grand Hyatt Dubai</a>,  
+                <a href="#">Saii Lagoon Maldives</a>,  
+                <a href="#">Gevora Hotel Dubai</a>,  
+                <a href="#">Hyatt Regency Dubai</a>,  
+                <a href="#">Pan Pacific Singapore</a>,  
+                <a href="#">The Palm Dubai</a>,  
+                <a href="#">Caesars Palace</a>,  
+                <a href="#">Baiyoke Sky Hotel</a>,  
+                <a href="#">Centara Pattaya Hotel</a>,  
+                <a href="#">Embudu Village</a>,  
+                <a href="#">Orchard Hotel Singapore</a>,  
+                <a href="#">Reethi Beach Resort</a>,  
+                <a href="#">Ambassador Hotel Bangkok</a>,  
+                <a href="#">Dusit Thani Pattaya</a>,  
+                <a href="#">Shangri La Singapore</a>,  
+                <a href="#">Sunbeam Hotel Pattaya</a>,  
+                <a href="#">Taj Samudra Colombo</a>,  
+                <a href="#">Bangkok Palace Hotel</a>,  
+                <a href="#">Hilton Pattaya</a>,  
+                <a href="#">Novotel Phuket Resort</a>,  
+                <a href="#">Taj Exotica Resort Maldives</a>,  
+                <a href="#">Village Hotel Bugis</a>,  
+                <a href="#">Avani Atrium Bangkok</a>,  
+                <a href="#">The Plaza New York</a>,  
+                <a href="#">Village Hotel Albert Court</a>,  
+                <a href="#">Amari Pattaya</a>
+                </p>
+        </div>
+        <div id="sec8_div9" class="sec8_divs">
+            <b>Book Hotels in India from Top Destinations</b>
+            <p><a href="#">Hotels in Jaipur</a>,  
+                <a href="#">Hotels in Goa</a>,  
+                <a href="#">Hotels in Delhi</a>,  
+                <a href="#">Hotels in Udaipur</a>,  
+                <a href="#">Hotels in Gurgaon</a>,  
+                <a href="#">Hotels in Mumbai</a>,  
+                <a href="#">Hotels in Bangalore</a>,  
+                <a href="#">Hotels in Rishikesh</a>,  
+                <a href="#">Hotels in Agra</a>,  
+                <a href="#">Hotels in Chennai</a>,  
+                <a href="#">Hotels in Kasauli</a>,  
+                <a href="#">Hotels in Kolkata</a>,  
+                <a href="#">Hotels in Pune</a>,  
+                <a href="#">Hotels in Manali</a>,  
+                <a href="#">Hotels in Lonavala</a>,  
+                <a href="#">Hotels in Shimla</a>,  
+                <a href="#">Hotels in Munnar</a>,  
+                <a href="#">Hotels in Ayodhya</a>,  
+                <a href="#">Hotels in Gulmarg</a>,  
+                <a href="#">Hotels in Leh</a>,  
+                <a href="#">Hotels in Hyderabad</a>
+                </p>
+        </div>
+    </section>
+
+    <section id="section9">
+        <div id="section9_container">
+            <div id="sec9_div1" class="sec9_divs">
+                <b>Why MakeMyTrip?</b>
+                <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+            </div>
+            <div id="sec9_div2" class="sec9_divs">
+                <b>Booking Flights with MakeMyTrip</b>
+                <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+            </div>
+            <div id="sec9_div3" class="sec9_divs">
+                <b>Domestic Flights with MakeMyTrip</b>
+                <p>MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_left">
+            <img src="https://static.vecteezy.com/system/resources/previews/046/853/005/non_2x/instagram-logo-black-and-white-transparent-background-free-png.png" alt="" width="110px" height="110px" style="margin-top: 18px;">
+            <img src="data:image/png;base64,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" alt="" width="44px" height="45px" style="margin-top: 50px;margin-right: 25px;">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-white-icon.png" alt="" width="44px" height="45px" style="margin-top: 50px;">
+            <img src="/assets/fb_logo.png" alt="" width="90px" height="85px" style="margin-top: 24px;">
+        </div>
+        <div id="footer_right">
+            <p id="ft_para1">&copy;  2025 MAKEMYTRIP PVT. LTD.</p>
+            <p id="ft_para2">Country <b style="font-weight: 900;">India USA UAE</b></p>
+        </div>
+    </footer>
+
+    <div id="scroll_nav_container">
+            <div id="scroll_nav_logo">
+                <img src="https://promos.makemytrip.com/Growth/Images/3x/mmt_dt_header_icon_3x.png" id="scroll_logo1">
+            </div>
+            <div id="scroll_nav_cont_div1" class="scroll_nav_cont_divs">
+                <img src="/assets/flight.jpg" alt="" width="30px" height="25px" ><p class="scroll_nav_texts" style="top: -5px;">Flights</p>
+            </div>
+            <div id="scroll_nav_cont_div2" class="scroll_nav_cont_divs"><img src="/assets/hotel.jpg" alt="" width="30px" height="25px" style="margin-top: 10px;"><p class="scroll_nav_texts" style="top: 0px;">Hotels</p></div>
+            <div id="scroll_nav_cont_div3" class="scroll_nav_cont_divs"> <img src="https://img.freepik.com/premium-vector/homestay-icon-vector-image-can-be-used-vacation-planning_120816-232215.jpg" alt="" width="30px" height="30px" style="margin-top: 15px;"><p class="scroll_nav_texts" style="top: -5px;left: -10px;">Homesta...</p></div>
+            <div id="scroll_nav_cont_div4" class="scroll_nav_cont_divs"><img src="/assets/umbrella.jpg" alt="" width="40px" height="30px" style="margin-top: 15px;"><p class="scroll_nav_texts" style="top: -5px;left: -10px;">Holiday P...</p></div>
+            <div id="scroll_nav_cont_div5" class="scroll_nav_cont_divs"><img src="https://i.pinimg.com/736x/78/d8/27/78d827c609a8e7329889cae44a742bad.jpg" alt="" width="50px" height="30px" ><p class="scroll_nav_texts" style="top: -8px;left: 3px;">Trains</p></div>
+            <div id="scroll_nav_cont_div6" class="scroll_nav_cont_divs"><img src="https://img.freepik.com/premium-vector/logo-bus-icon-school-bus-vector-isolated-transport-bus-silhouette-design-white-background_653669-3112.jpg" alt="" width="40px" height="50px" style="margin-top: 23px;"><p class="scroll_nav_texts" style="top: -18px;left: 5px;">Buses</p></div>
+            <div id="scroll_nav_cont_div7" class="scroll_nav_cont_divs"><img src="https://static.vecteezy.com/system/resources/previews/015/153/901/non_2x/car-travel-icon-color-outline-vector.jpg" alt="" width="40px" height="30px"><p class="scroll_nav_texts" style="top: -5px;left: 5px;">Cabs</p></div>
+            <div id="scroll_nav_cont_div8" class="scroll_nav_cont_divs"><img src="https://t4.ftcdn.net/jpg/03/07/14/09/360_F_307140983_MDNd4Mtv5qgd3LAUK40ru1EPyYWL4elG.jpg" alt="" width="40px" height="40px" style="margin-top: 20px;"><p class="scroll_nav_texts" style="top: -10px;left: -7px;">Forex Ca...</p></div>
+            <div id="scroll_nav_cont_div9" class="scroll_nav_cont_divs"><img src="https://static.vecteezy.com/system/resources/previews/002/210/424/non_2x/travel-insurance-black-glyph-icon-vector.jpg" alt="" width="40px" height="30px" style="margin-top: 20px;"><p class="scroll_nav_texts" style="top: -5px;left: -10px;">Travel Ins...</p></div>
+            <div id="scroll_nav_last">
+                <div id="scroll_nav1" class="scroll_navs_end">
+                    <img src="/assets/scroll-mylogo.png" width="28px" height="25px">
+                    <p >Login or <br> Create Account </p>
+                </div>
+                <div id="scroll_nav2" class="scroll_navs_end">
+                    <p style="font-size: 10px;" class="scroll_para1">Country</p>
+                    <p style="font-size: 10px;"><img src="https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp " width="15px" height="10px">&nbsp;India &nbsp;&nbsp;<i class="fa-solid fa-angle-down" style="color: #008CFF;font-size: 11px;"></i></p>
+                </div>
+                <div id="scroll_nav3" class="scroll_navs_end">
+                    <p style="font-size: 10px;" class="scroll_para1">Language</p>
+                    <p style="font-size: 10px;">ENG &nbsp;&nbsp;<i class="fa-solid fa-angle-down" style="color: #008CFF;font-size: 11px;"></i></p>
+                </div>
+                <div id="scroll_nav4" class="scroll_navs_end">
+                    <p style="font-size: 10px;" class="scroll_para1">Currency</p>
+                    <p style="font-size: 10px;">INR &nbsp;&nbsp;<i class="fa-solid fa-angle-down" style="color: #008CFF;font-size: 11px;"></i></p>
+                </div>
+                
+            </div>
+    </div>
+
+    <script src="/index.js"></script>
+
+</body>
+</html>
